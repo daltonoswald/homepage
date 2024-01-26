@@ -1,3 +1,69 @@
+body {
+    margin: 25px auto;
+    max-width: 85vw;
+}
+
+.top {
+    display: flex;
+    align-items: center;
+}
+
+.about {
+    display: flex;
+    flex-direction: column;
+    padding: 8px;
+    font-size: 32px;
+}
+
+.about-me-title {
+    font-size: 2em;
+}
+
+/* .about-me-text {
+
+} */
+
+.about-me-icons {
+    display: flex;
+    justify-content: flex-end;
+    gap: 20px;
+}
+
 .navigation {
-    height: 20px;
+    height: 35px;
+}
+
+/* .project-links {
+    height: 15px;
+} */
+
+.projects {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.panel {
+    max-width: 400px;
+    box-shadow: black 0px 3px 8px;
+}
+
+.project-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between
+}
+
+.project-title {
+    font-size: 24px;
+    margin: 10px 0px;
+}
+
+.project-navigation {
+    height: 24px;
+}
+
+.project-text {
+    margin: 8px 16px 24px 16px;
 }
