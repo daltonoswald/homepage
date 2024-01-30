@@ -7,11 +7,13 @@
 </head>
 <body>
     <div class="top">
-        <picture>
-            <source media="(max-width: 599px)" srcset="/src/imgs/dalton-250w.png" />
-            <source media="(min-width: 600px)" srcset="/src/imgs/dalton-450w.png" />
-            <img src="/src/imgs/dalton-450w.png" alt="Dalton Oswald" />
-        </picture>
+        <div class="about-me-picture">
+            <picture>
+                <source media="(max-width: 599px)" srcset="/src/imgs/dalton-250w.png" />
+                <source media="(min-width: 600px)" srcset="/src/imgs/dalton-450w.png" />
+                <img src="/src/imgs/dalton-450w.png" alt="Dalton Oswald" class="about-picture"/>
+            </picture>
+        </div>
         <div class="about">
             <h1 class="about-me">About me</h1>
             <div class="about-me-text">Hello, my name is Dalton Oswald and I am learning web development. I graudated from California University of Pennsylvania 
@@ -122,27 +124,31 @@
     </div>
     <div class="bottom">
         <div class="left">
-            <div class="contact-title">Contact Me</div>
-            <div class="contact-content">Please get in touch if you think our work could be mutually beneficial.</div>
-            <div class="address">1234 Random Road</div>
-            <div class="address">Pittsburgh, Pennsylvania 15146</div>
-            <div class="phone">
-                <img src="/src/imgs/phone.svg" alt="phone"/>
+            <h3 class="contact-title contact-row">Contact Me</h3>
+            <div class="contact-content contact-row">Please get in touch if you think our work could be mutually beneficial.</div>
+            <div class="address contact-row">1234 Random Road</div>
+            <div class="address contact-row">Pittsburgh, Pennsylvania 15146</div>
+            <div class="phone contact-row">
+                <img src="/src/imgs/phone.svg" alt="phone" class="contact-icon"/>
                 555-555-5555
             </div>
-            <div class="email">
-                <img src="/src/imgs/email-outline.svg" alt="email"/>
+            <div class="email contact-row">
+                <img src="/src/imgs/email-outline.svg" alt="email" class="contact-icon"/>
                 daltonoswald@gmail.com
             </div>
-            <div class="content-links">
-                <img src="/src/imgs/github-original.svg" alt="github" />
-                <img src="/src/imgs/linkedin-plain.svg" alt="linkedin" />
-                <img src="/src/imgs/twitter-original.svg" alt="twitter" />
+            <div class="contact-links contact-row">
+                <img src="/src/imgs/github-original.svg" alt="github" class="contact-navigation" />
+                <img src="/src/imgs/linkedin-plain.svg" alt="linkedin" class="contact-navigation" />
+                <img src="/src/imgs/twitter-black.png" alt="twitter" class="contact-navigation" />
             </div>
         </div>
         <div class="right">
             <!-- Change this later -->
-            <img src="/src/imgs/dalton-450w.png" alt="Dalton Oswald" />
+            <picture>
+                <source media="(max-width: 599px)" srcset="/src/imgs/dalton-250w.png" />
+                <source media="(min-width: 600px)" srcset="/src/imgs/dalton-450w.png" />
+                <img src="/src/imgs/dalton-450w.png" alt="Dalton Oswald" class="about-picture"/>
+            </picture>
         </div>
     </div>
     <script src="main.js"></script>
